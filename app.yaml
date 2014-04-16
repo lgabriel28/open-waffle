@@ -12,6 +12,9 @@ handlers:
 - url: /include/css
   static_dir: include/css
   
+- url: /include/js
+  static_dir: include/js
+  
 - url: /include/img
   static_dir: include/img
 
