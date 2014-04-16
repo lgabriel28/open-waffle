@@ -37,7 +37,7 @@
 			</select>
 			<br>
 			<select name="event" class="input user-info">
-				<option value="0">Event</option>
+				<option value="0">Event*</option>
 			  <option value="japanes">Japanese Waffle - 4/23/2014</option>
 			</select>
 			
