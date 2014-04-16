@@ -35,6 +35,11 @@
 			  <option value="3">Three</option>
 			  <option value="4">...Four</option>
 			</select>
+			<br>
+			<select name="event" class="input user-info">
+				<option value="0">Event</option>
+			  <option value="japanes">Japanese Waffle - 4/23/2014</option>
+			</select>
 			
 			<input name="request" type="text" class="input user-info" placeholder="Special Request" />
 			
