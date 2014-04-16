@@ -5,6 +5,7 @@
 <title>OpenWaffle - Claim your Waffle</title>
 
 <!-- <script type="text/javascript" language="javascript" src="include/js/report_management.js"></script>  -->
+<script type="text/javascript" language="javascript" src="include/js/jquery-1.11.0.min.js"></script>
 <link href="include/css/style.css" type="text/css" rel="stylesheet"></link>
 
 
