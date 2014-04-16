@@ -25,7 +25,7 @@
 		</div>
 	    
 		<div class="content">
-			<input name="username" type="text" class="input username" placeholder="OpenTable Email*" />
+			<input name="email" id="email" type="text" class="input email" placeholder="OpenTable Email*" />
 			<div class="user-icon"></div>
 			
 			<select name="qty" class="input user-info">
@@ -50,7 +50,7 @@
 
 		<div class="footer">
 <!-- 			<button id="submit" class="submit_button" type="button" value="Save">Save</button> -->
-			<input type="button" name="submit" value="Feed Me" class="button" />
+			<input type="button" name="submit" value="Feed Me" class="button" onclick="saveEventReso(); />
 			<input type="submit" name="submit" value="Claim your waffle" class="register" />
 		</div>
 	
