@@ -4,10 +4,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>OpenWaffle - Claim your Waffle</title>
 
-<!-- <script type="text/javascript" language="javascript" src="include/js/report_management.js"></script>  -->
+<script type="text/javascript" language="javascript" src="include/js/management.js"></script> 
 <script type="text/javascript" language="javascript" src="include/js/jquery-1.11.0.min.js"></script>
 <link href="include/css/style.css" type="text/css" rel="stylesheet"></link>
-
 
 </head>
 <body>
@@ -26,6 +25,7 @@
 	    
 		<div class="content">
 			<input name="email" id="email" type="text" class="input email" placeholder="OpenTable Email*" />
+			<div class="required-email"></div>
 			<div class="user-icon"></div>
 			
 			<select name="qty" class="input user-info">
@@ -35,12 +35,13 @@
 			  <option value="3">Three</option>
 			  <option value="4">...Four</option>
 			</select>
+			<div class="required-qty"></div>
 			<br>
 			<select name="event" class="input user-info">
 				<option value="0">Event*</option>
-			  <option value="japanes">Japanese Waffle - 4/23/2014</option>
+			  <option value="japanese">Japanese Waffle - 4/23/2014</option>
 			</select>
-			
+			<div class="required-event"></div>
 			<input name="request" type="text" class="input user-info" placeholder="Special Request" />
 			
 <!-- 			<input name="password" type="password" class="input password" placeholder="Password" /> -->
@@ -50,7 +51,7 @@
 
 		<div class="footer">
 <!-- 			<button id="submit" class="submit_button" type="button" value="Save">Save</button> -->
-			<input type="button" name="submit" value="Feed Me" class="button" onclick="saveEventReso(); />
+			<input type="button" name="submit" value="Feed Me" class="button" onclick="saveEventReso()"; />
 			<input type="submit" name="submit" value="Claim your waffle" class="register" />
 		</div>
 	
