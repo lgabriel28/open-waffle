@@ -20,7 +20,7 @@
 	
 		<div class="header">
 		<h1>Reserve your free waffle</h1>
-			<span>Help the OpenTable's Waffle Squad keep track of their inventory and waffle production.</span>
+			<span>Help OpenTable's Waffle Squad keep track of their inventory and waffle production.</span>
 		</div>
 	    
 		<div class="content">
