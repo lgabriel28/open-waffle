@@ -40,6 +40,11 @@ body {
 	margin: 15px auto;
 }
 
+#required{
+	color:#D60443;
+	font-size:12px;
+}
+
 /* Download Button */
 .download {
 	display: block;

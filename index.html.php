@@ -11,7 +11,6 @@
 </head>
 <body>
 
-<!-- http://cssdeck.com/labs/amazing-css3-login-form -->
 <div id="wrapper">
 
 	<div class="logo-image"><img border="0" src="include/img/logo.png" alt="WaffleSquad" width="440" height="302"></div>
@@ -25,23 +24,23 @@
 	    
 		<div class="content">
 			<input name="email" id="email" type="text" class="input email" placeholder="OpenTable Email*" />
-			<div class="required-email"></div>
+			<div class="required-email" id="required"></div>
 			<div class="user-icon"></div>
 			
-			<select name="qty" class="input user-info">
+			<select name="qty" id="qty" class="input user-info">
 			  <option value="0">Waffle Qty*</option>
 			  <option value="1">One</option>
 			  <option value="2">Two</option>
 			  <option value="3">Three</option>
 			  <option value="4">...Four</option>
 			</select>
-			<div class="required-qty"></div>
+			<div class="required-qty" id="required"></div>
 			<br>
-			<select name="event" class="input user-info">
+			<select name="event" id="event" class="input user-info">
 				<option value="0">Event*</option>
 			  <option value="japanese">Japanese Waffle - 4/23/2014</option>
 			</select>
-			<div class="required-event"></div>
+			<div class="required-event" id="required"></div>
 			<input name="request" type="text" class="input user-info" placeholder="Special Request" />
 			
 <!-- 			<input name="password" type="password" class="input password" placeholder="Password" /> -->

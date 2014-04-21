@@ -11,22 +11,36 @@ var domain		= res[1];
 var domain		= domain.toLowerCase();
 
 
-if(domain <> 'opentable.com'){
-	validationMessage("div.required-email","We know our waffles are delicious but this is and OpenTabler only event.");
+if(domain != 'opentable.com'){
+	validateMessage("div.required-email","We know our waffles are delicious but this is and OpenTabler only event.");
 }
 else if (qty == 0) {
-	validationMessage("div.required-qty","Don't be shy. Select the number of waffles you're willing to eat.");
+	validateMessage("div.required-qty","Don't be shy. Select the number of waffles you're willing to eat.");
 }
 else if (event == 0) {
-validationMessage("div.required-event","Please select an event.");
+	validateMessage("div.required-event","Please select an event.");
 }
 else{
-	//Gather values to insert record here...
-alert(domain);
-}	
-
-function validationMessage(element, msg){
-	$( element ).html( msg );
+	//insert record here...   
+//	$.ajax({
+//		type: "GET",
+//		url: "insertReso.php",
+//		data: {
+//		       qty: qty,
+//		       event: event,
+//		       email: email,
+//		       request: request
+//		   },
+//		datatype: "json",
+//		success: function (result) {
+//		    
+//		       	 }
+//		});
+	alert(domain);
 }
-
+}
+	
+//
+function validateMessage(element, msg){
+	$( element ).html( msg );
 }
